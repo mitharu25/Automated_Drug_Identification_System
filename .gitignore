@@ -1,0 +1,29 @@
+# Ignore semua
+*
+
+# Allow folder utama
+!Train_Model/
+!webTest/
+!model/
+
+# Allow isi di dalam folder
+!Train_Model/**
+!webTest/**
+!model/**
+
+# Tetap ignore di dalam folder tersebut
+webTest/backend/venv/
+__pycache__/
+*.pyc
+
+# File besar (tetap jangan ikut ke-upload)
+*.zip
+*.pt
+*.pth
+*.h5
+
+# OS
+.DS_Store
+
+# Keep gitignore
+!.gitignore
